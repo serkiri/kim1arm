@@ -1785,7 +1785,7 @@ int main()
 	InitStack();
 
     __TRACE( "\n" );
-    __TRACE( "Speccy2010, ver %d.%d, rev %d !\n", VER_MAJOR, VER_MINIR, REV );
+    __TRACE( "Speccy2010, ver KIM-1, rev %d !\n", VER_MAJOR, VER_MINIR, REV );
 
     if( !pllStatusOK ) __TRACE( "PLL initialization error !\n" );
     DelayMs( 100 );
